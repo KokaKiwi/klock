@@ -167,6 +167,7 @@ int main(int argc, char **argv)
 
                     case XK_Linefeed:
                     case XK_Return:
+                    case XK_KP_Enter:
                         if (rlen == 0)
                             break;
                         rbuf[rlen] = 0;
